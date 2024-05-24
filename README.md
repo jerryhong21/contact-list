@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Contact List
+
+This project is a contact list application built with Next.js, React, and Tailwind CSS. The application allows users to search and filter contacts, displaying the results in a scrollable table format.
+
+## Features
+
+-   Search bar for quick contact lookup
+-   Filter options to narrow down search results
+-   Scrollable table cells for handling overflow content
+-   Responsive design
+
+## Demo
+
+The project is deployed and can be accessed at [Contact List Demo](https://contact-list-eta-eight.vercel.app/). https://contact-list-eta-eight.vercel.app/
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you set up and run the project locally.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following software installed on your local machine:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   Node.js (v14.x or later)
+-   npm (v6.x or later) or yarn (v1.x or later)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/yourusername/contact-list.git
+    cd contact-list
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+    Or if you are using yarn:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    yarn install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Running the Project Locally
+
+1. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Or if you are using yarn:
+
+    ```bash
+    yarn dev
+    ```
+
+2. **Open your browser and navigate to:**
+
+    ```
+    http://localhost:3000
+    ```
+
+### Project Structure
+
+-   `pages/`: Contains the Next.js pages, including the main `index.tsx` file.
+-   `components/`: Contains the React components used in the project.
+-   `public/`: Contains public assets like images and fonts.
+-   `styles/`: Contains global styles and Tailwind CSS configuration.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
