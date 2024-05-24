@@ -35,8 +35,6 @@ const ContactTable = ({
 	// Searchbar filter listener
 	useEffect(() => {
 		setFilteredContacts(searchContacts(filteredContacts, searchStr));
-		console.log("Search string is, ", searchStr);
-		console.log(filteredContacts);
 	}, [searchStr]);
 
 	// Filters
@@ -47,9 +45,6 @@ const ContactTable = ({
 			setFilteredContacts(
 				filterContacts(originalContact, cityFilter, companyFilter)
 			);
-			console.log("City filter is, ", cityFilter);
-			console.log("company filter is, ", companyFilter);
-			console.log(filteredContacts);
 		}
 	}, [cityFilter, companyFilter]);
 

@@ -575,5 +575,4 @@ export const userData = [
 			bs: "revolutionize end-to-end systems",
 		},
 	},
-] as const;
-
+];

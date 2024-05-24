@@ -1,6 +1,5 @@
 "use client";
 
-import Head from "next/head";
 import ContactTable from "@/components/contact-table";
 import SearchBar from "@/components/searchbar";
 import FilterOptions from "@/components/filter-options";
@@ -13,7 +12,6 @@ export default function Home() {
 
 	return (
 		<main className="min-h-screen bg-gray-100 p-6">
-			<Head className="text-center">Contact List</Head>
 			<div className="container mx-auto bg-white shadow-md rounded-lg p-4">
 				<h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#931639] to-[#C13584] text-white p-6 rounded-lg shadow-lg text-center">
 					Contact List
@@ -24,8 +22,10 @@ export default function Home() {
 						setSearchStr={setSearchStr}
 					/>
 					<FilterOptions
+						cityFilter={cityFilter}
 						setCityFilter={setCityFilter}
 						setCompanyFilter={setCompanyFilter}
+						companyFilter={companyFilter}
 					/>
 				</div>
 				<ContactTable
