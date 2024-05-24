@@ -9,6 +9,11 @@ This project is a contact list application built with Next.js, React, and Tailwi
 -   Scrollable table cells for handling overflow content
 -   Responsive design
 
+## Preview
+<img width="500" alt="image" src="https://github.com/jerryhong21/contact-list/assets/143977989/8e6cf021-b4ab-49ec-af22-b8a5832b3093">
+<img width="350" alt="image" src="https://github.com/jerryhong21/contact-list/assets/143977989/917f93a8-ede4-4ec0-bc0e-0c3793cdf1e2">
+
+
 ## Demo
 
 The project is deployed and can be accessed at [Contact List Demo](https://contact-list-eta-eight.vercel.app/). https://contact-list-eta-eight.vercel.app/
